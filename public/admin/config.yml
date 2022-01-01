@@ -1,6 +1,9 @@
 backend:
-  name: test-repo
+  name: git-gateway
+  repo: kamit-transient/nextjs_netlify_on_vercel
   branch: main # Branch to update (optional; defaults to master)
+  base_url: https://nextjs-netlify-on-vercel.vercel.app/
+  auth_endpoint: api/auth
 media_folder: public/img
 public_folder: img
 collections:
